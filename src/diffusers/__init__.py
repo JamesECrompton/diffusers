@@ -92,6 +92,7 @@ else:
         UnCLIPScheduler,
         UniPCMultistepScheduler,
         VQDiffusionScheduler,
+        PNDMDetailScheduler,
     )
     from .training_utils import EMAModel
 

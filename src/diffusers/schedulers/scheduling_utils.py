@@ -44,6 +44,7 @@ class KarrasDiffusionSchedulers(Enum):
     DEISMultistepScheduler = 12
     UniPCMultistepScheduler = 13
     DPMSolverSDEScheduler = 14
+    PNDMDetailScheduler = 15
 
 
 @dataclass

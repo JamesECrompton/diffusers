@@ -42,6 +42,7 @@ else:
     from .scheduling_k_dpm_2_discrete import KDPM2DiscreteScheduler
     from .scheduling_karras_ve import KarrasVeScheduler
     from .scheduling_pndm import PNDMScheduler
+    from .scheduling_pndm_detail import PNDMDetailScheduler
     from .scheduling_repaint import RePaintScheduler
     from .scheduling_sde_ve import ScoreSdeVeScheduler
     from .scheduling_sde_vp import ScoreSdeVpScheduler
